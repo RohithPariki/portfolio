@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohith Pariki | AI & Full-Stack Developer</title>
+    <meta name="description"
+        content="Rohith Pariki – Final-year CSE student building scalable full-stack systems and AI-driven applications with LLMs, RAG pipelines, and modern backend architectures.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Rohith Pariki</a>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-background-glow"></div>
+        <div class="container hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">Rohith Pariki</h1>
+            <h2 class="hero-subtitle">AI & Full-Stack Systems Builder</h2>
+            <p class="hero-description">
+                I build scalable full-stack systems and AI-driven applications with a focus on system design,
+                performance, and real-world usability.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/RohithPariki" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rohith-pariki-7410a9290/" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="mailto:rohithpariki@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in-up">
+                    <p class="summary">
+                        I am currently pursuing a Bachelor of Mathematics and Scientific Computing at the Indian
+                        Institute of Information Technology, Gwalior.
+                    </p>
+                    <p class="summary">
+                        I enjoy building intelligent systems that combine backend engineering with modern AI workflows,
+                        with a strong interest in scalable system design.
+                    </p>
+                    <p class="summary">
+                        My primary areas of focus include large language models, retrieval-augmented generation, and
+                        multi-agent systems, with an emphasis on production-ready architectures.
+                    </p>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div class="edu-details">
+                                <h4>Bachelor of Mathematics and Scientific Computing</h4>
+                                <p class="institute">Indian Institute of Information Technology, Gwalior</p>
+                                <p class="year">2023 – 2027 (Expected)</p>
+                                <span class="grade">CGPA: 7.58</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Advanced RAG Platform -->
+                <article class="project-card fade-in-up">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-brain project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/RohithPariki" target="_blank" aria-label="GitHub Repo"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Advanced Retrieval-Augmented Generation Platform</h3>
+                        <p class="project-desc">Designed and implemented an end-to-end retrieval-augmented generation
+                            (RAG) system supporting multi-format ingestion including PDFs, CSV files, and audio.
+                            Built hybrid retrieval and context fusion pipelines to improve answer relevance by 30% over
+                            vector-only retrieval.
+                            Deployed a containerized backend with scalable APIs and caching strategies, achieving 25%
+                            faster response times under concurrent workloads.</p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>FastAPI</li>
+                            <li>Vector Databases</li>
+                            <li>LLMs</li>
+                            <li>FAISS</li>
+                            <li>ChromaDB</li>
+                            <li>Docker</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 2: Community Resource Platform -->
+                <article class="project-card fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-users project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/RohithPariki" target="_blank" aria-label="GitHub Repo"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Community Resource & Opportunity Discovery Platform</h3>
+                        <p class="project-desc">Developed a full-stack marketplace-style platform for discovering and
+                            managing community resources and opportunities.
+                            Implemented JWT-based authentication and role-based access control to secure over 15
+                            protected API endpoints.
+                            Optimized backend validation and data workflows, reducing invalid submissions by 40% and
+                            improving overall system reliability.</p>
+                        <ul class="tech-stack">
+                            <li>TypeScript</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB</li>
+                            <li>JWT</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 3: Multi-Agent AI System -->
+                <article class="project-card fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-stethoscope project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/RohithPariki" target="_blank" aria-label="GitHub Repo"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Multi-Agent AI System for Medical Case Analysis</h3>
+                        <p class="project-desc">Built a multi-agent AI system simulating collaboration between medical
+                            specialists for analyzing clinical reports.
+                            Designed role-specific agent orchestration and aggregation pipelines, enabling parallel
+                            reasoning and improving diagnostic coverage by 45%.
+                            Supported batch analysis of 100+ medical cases per run with reduced missed condition
+                            indicators.</p>
+                        <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>Large Language Models</li>
+                            <li>Agent Orchestration</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="view-more-container">
+                <a href="#" class="btn btn-outline">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+
+                <div class="skill-category fade-in-up">
+                    <h3>AI / ML & Data</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">XGBoost</span>
+                        <span class="skill-tag">SHAP</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">HuggingFace</span>
+                        <span class="skill-tag">OpenAI API</span>
+                        <span class="skill-tag">LLM APIs</span>
+                        <span class="skill-tag">Agent Orchestration</span>
+                        <span class="skill-tag">RAG Pipelines</span>
+                        <span class="skill-tag">FAISS</span>
+                        <span class="skill-tag">ChromaDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category fade-in-up" style="transition-delay: 0.1s;">
+                    <h3>Backend & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Vite</span>
+                    </div>
+                </div>
+
+                <div class="skill-category fade-in-up" style="transition-delay: 0.2s;">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category fade-in-up" style="transition-delay: 0.3s;">
+                    <h3>DevOps, Security & Testing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">JWT</span>
+                        <span class="skill-tag">RBAC</span>
+                        <span class="skill-tag">Bcrypt</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">Supertest</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">Structured Logging</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper fade-in-up">
+                <p class="contact-text">
+                    If you'd like to collaborate, discuss ideas, or build something impactful, feel free to reach out.
+                </p>
+
+                <form class="contact-form" action="#" method="POST"
+                    onsubmit="event.preventDefault(); console.log('Form submitted');">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+
+                <div class="footer-socials">
+                    <p><strong>Email:</strong> <a href="mailto:rohithpariki@gmail.com">rohithpariki@gmail.com</a></p>
+                    <p><strong>Phone:</strong> +91 8143946153</p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/RohithPariki"
+                            target="_blank">github.com/RohithPariki</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rohith-pariki-7410a9290/"
+                            target="_blank">linkedin.com/in/rohith-pariki-7410a9290</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Rohith Pariki. All rights reserved.</p>
+            <p class="credits">Built with HTML, CSS, and JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
